@@ -1,0 +1,4 @@
+use('heroes_db');
+
+db.heroesMarvel.deleteOne({ _id: 1 });
+

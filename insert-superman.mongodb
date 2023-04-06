@@ -1,0 +1,10 @@
+use('heroes_db');
+
+db.heroesDC.insertOne({
+  name: 'Superman',
+  team: 'Liga da Justiça',
+  age: 33,
+  gender: 'Masculine',
+  abilities: ['Superforça', 'Voo', 'Visão de Calor', 'Visão de Raio-x'],
+  capeUser: true
+});

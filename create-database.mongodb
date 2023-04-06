@@ -1,0 +1,9 @@
+// Select the database to use.
+use('heroes_db');
+
+db.createCollection('heroesDC');
+
+db.heroesMarvel.insertOne({
+  name : 'Wolverine',
+  teams: ['X-Factor', 'X-Men']
+});

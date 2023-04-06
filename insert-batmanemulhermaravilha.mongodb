@@ -1,0 +1,20 @@
+use('heroes_db');
+
+db.heroesDC.insertMany([
+  {
+  name: 'Batman',
+  team: 'Liga da Justiça',
+  age: 42,
+  gender: 'Masculine',
+  abilities: ['Inteligência', 'Riqueza', 'Habilidades de Combate'],
+  capeUser: true
+},
+{
+  name: 'Mulher Maravilha',
+  team: 'Liga da Justiça',
+  age: 5000,
+  gender: 'Feminine',
+  abilities: ['Superforça', 'Velocidade', 'Sentido Aguçado'],
+  capeUser: false
+}
+]);

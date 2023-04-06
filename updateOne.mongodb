@@ -1,0 +1,6 @@
+use('heroes_db');
+
+db.heroesDC.updateOne(
+  { name: 'Superman' },
+  { $set: {age: 34}}
+);

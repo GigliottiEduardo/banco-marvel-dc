@@ -1,0 +1,9 @@
+use('heroes_db');
+
+db.heroesDC.find().pretty();
+
+db.heroesDC.InsertOne({
+    _id: 1,
+    name: 'Vampira',
+    team: ["X-Men"]
+});
